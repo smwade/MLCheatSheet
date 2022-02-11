@@ -1,0 +1,20 @@
+{
+  "name": "mlcheatsheet",
+  "version": "1.0.0",
+  "description": "This is an online book provie a quick refresher on ML fundamentals",
+  "main": "index.js",
+  "scripts": {
+		"build": "jupyter-book build .",
+    "deploy": "aws s3 sync _build/html s3://mlcheatsheet.com --delete"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/smwade/MLCheatSheet.git"
+  },
+  "author": "Sean Wade",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/smwade/MLCheatSheet/issues"
+  },
+  "homepage": "https://github.com/smwade/MLCheatSheet#readme"
+}
